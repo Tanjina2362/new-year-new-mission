@@ -1,4 +1,6 @@
-
+style{
+   font-family: 'Open Sans', sans-serif;
+}
 /* banner section styles*/
 .banner{
    .gradient{
@@ -89,6 +91,55 @@ line-height: normal;
    padding: 400px;
    width: auto;
 
+}
+/*banner in main section*/
+.banner{
+   position: relative;
+}
+.banner img{
+   background-image: -o-linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../images/Vectorrr.png');
+   width: 1320px;
+height: 600px;
+display: inline;
+justify-content: center;
+}
+.banner-text h2{
+   position: absolute;
+   top:10%;
+   color:#fff;
+padding: 30px;
+   font-family: Merriweather;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 44px; /* 137.5% */
+   letter-spacing: 7.04px;
+   display: flex;
    
-   
+}
+
+button{
+   position: absolute;
+   color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+background-color: #070211;
+width: 103px;
+height: 24px;
+bottom:55px;
+padding:15px;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+text-transform: uppercase;
+line-height: 20px; /* 166.667% */
+}
+.banner-img{
+   display: flex;
+   width: 319.83px;
+   height: 464.662px;
+   padding: 0.008px 0px 0px 0px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
 }
